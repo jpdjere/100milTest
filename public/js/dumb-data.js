@@ -220,7 +220,7 @@ Array.prototype.sum = function (prop) {
 var provincias_general_data = {};
 
 jQuery.ajax({
-    url: "http://181.209.66.161/afip/api/por_provincia",
+    url: "https://181.209.66.161/afip/api/por_provincia",
     type: "GET",
     dataType: "json",
     contentType: "application/text; charset=utf-8",
